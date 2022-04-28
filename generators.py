@@ -26,6 +26,6 @@ def get_sequence_upto(x):
 gen=get_sequence_upto(5)
 while True:
     try:
-        print ("Received on next(): ", next(gen))
+        print("Received on next(): ", next(gen))
     except StopIteration:
         break
